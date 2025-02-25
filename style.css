@@ -24,19 +24,45 @@ ul{
     display: none;
 }
 nav{
-    display: none;
+display: flex;
+padding: 1rem;
+justify-content: space-between;
+}
+
+.profile-pic img{
+    max-width: 40%;
+}
+
+.nav-div-1{
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-div-2{
+    display: flex;
+    gap: 2rem;
 }
 
 .section-1 img{
 max-width: 100%;
+
 }
 
 .section-1{
+    position: relative;
+    top: 0;
+    left: 0;
+}
 
+.arrow-icon{
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px red solid;
 }
 
 .section-1-div-1{
-    
+
 }
 
 .section-1-div-2{
@@ -120,7 +146,32 @@ button{
 
 @media(min-width:765px){
 
+    .hamburger-icon{
+        display: none;
+    }
+
+    ul{
+        display: block;
+        list-style: none;
+        display: flex;
+       gap: 2rem;
+    }
+
+    main{
+        display: flex;
+    
+    }
+
+    .section-3{
+        flex-direction: column;
+    }
+
+    .overall-section{
+        display: flex;
+        flex-direction: column;
+    }
 }
+
 
 
 
