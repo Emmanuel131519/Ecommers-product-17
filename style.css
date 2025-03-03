@@ -170,6 +170,18 @@ button{
         display: flex;
         flex-direction: column;
     }
+
+    .section-3-div-2-div{
+        display: flex;
+    }
+
+    .overall-section{
+        padding-top: 10rem;
+    }
+
+    .section-1 img{
+        max-width:70%;
+    }
 }
 
 
