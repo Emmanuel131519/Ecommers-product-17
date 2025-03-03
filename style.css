@@ -176,11 +176,14 @@ button{
     }
 
     .overall-section{
-        padding-top: 10rem;
+        padding-top: 4rem;
+        padding-right: 15rem;
     }
 
     .section-1 img{
         max-width:70%;
+        padding: 1.5rem;
+        border-radius: 8px;
     }
 }
 
