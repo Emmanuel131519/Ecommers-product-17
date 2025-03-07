@@ -3,82 +3,113 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ecommers-Product</title>
-    <link rel="shortcut icon" href="asset/favicon.png" type="image/x-icon">
+    <title>Ecommerce-product-page</title>
+    <link rel="shortcut icon" href="asset/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav>
-      <div class="nav-div-1">
-        <div>
-          <img src="asset/icon-menu.svg" alt="hamburger-icon" class="hamburger-icon" />
+    <!-- nav -->
+    <nav class="container">
+      <section class="nav-section-1">
+         <div class="nav-section-1a">
+        <div class="nav-logo-wrapper">
+          <img src="asset/icon-menu.svg" alt="menu-img" />
         </div>
         <div>
-          <img src="asset/logo.svg" alt="icon-logo" />
-        </div>
-        </div>
-        <ul>
-          <li>Collections</li>
-          <li>Men</li>
-          <li>Women</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      <div class="nav-div-2">
-        <div>
-          <img src="asset/icon-cart.svg" alt="icon-cart" />
-        </div>
-        <div class="profile-pic">
-            <img src="asset/profile-pic.png" alt="profile-pic" />
+          <img src="asset/logo.svg" alt="nav-logo" />
         </div>
       </div>
+      <ul>
+        <li>Collections</li>
+        <li>Men</li>
+        <li>Women</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+      </section>
+
+      <!-- scetion-2 -->
+       <section class="nav-section-2">
+        <div>
+          <img src="asset/icon-cart.svg" alt="cart-img">
+        </div>
+        <div>
+          <img src="asset/profile-pic.png" alt="profile-img">
+        </div>
+       </section>
     </nav>
-    <main>
-        <!-- section-1 -->
-          <section class="section-1">
-            <div class="section-1-div-1">
-                <img src="asset/shoes-4.jpg" alt="main-pic">
+
+    <!-- main -->
+     <main>
+      <!-- scetion-1 -->
+       <section class="section-1">
+        <div class="section-1-main-div">
+          <div class="sneaker-div">
+ <!-- div-for sneakers img -->
+ <div class="section-1-hero-img">
+  <img src="asset/shoes-4-main-img.jpg" alt="sneaker-img">
+ </div>
+          </div>
+          <!-- parent-div-for-arrows-left and arrows-right -->
+           <div class="container div-2">
+            <div class="arrow-divs">
+              <img src="asset/icon-previous.svg" alt="icon-previous">
             </div>
-        </section>
-        <!-- section-2 -->
-         <section class="overall-section">
-          <section class="section-2">
+
+            <div class="arrow-divs">
+              <img src="asset/icon-next.svg" alt="icon-next">
+            </div>
+           </div>
+           <!-- div for thumbnails- these would be displayed none on mobile screen -->
             <div>
-                <h5>SNEAKER COMPANY</h5>
+              <!-- div for thumbnail 1 -->
+               <div>
+                <img src="asset/thumbnail-1.jpg" alt="shoes-1">
+               </div>
+                  <!-- div for thumbnail 2 -->
+               <div>
+                <img src="asset/thumbnail-2.jpg" alt="shoes-2">
+               </div>
+                  <!-- div for thumbnail 3 -->
+               <div>
+                <img src="asset/thumbnail-3.jpg" alt="shoes-3">
+               </div>
+                  <!-- div for thumbnail 4 -->
+               <div>
+                <img src="asset/thumbnail-4.jpg" alt="shoes-4">
+               </div>
+            </div>
+        </div>
+       </section>
+       <!-- section-2 -->
+        <section>
+          <div>
+            <h4>SNEAKER COMPANY</h4>
+            <h1>Fall Limited Edition Sneakers</h1>
+          </div>
+          <!-- div-2 -->
+          <div>
+            <p>THese low-profile are your perfect casual wear companion. Feauturing a double layer outer sole they'll withstand anything the weather can offer.</p>
+<!-- div-2-a -->
+            <div>
+              <div>
+                <h1>125.00</h1>
+                <h5>50%</h5>
+              </div>
+              <p>250.00</p>
             </div>
             <div>
-                <h1>Fall Limited Edition Sneakers</h1>
-            </div>
-            <div>
-                <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
-            </div>
-         </section>
-         <!-- section-3 -->
-          <section class="section-3">
-            <div class="section-3-div-1">
-                <div class="section-3-div-1-div">
-                    <h1>$125.00</h1>
-                    <button>50%</button>
-                </div>
-                <div>
-                    <h5>$250</h5>
-                </div>
-            </div>
-            <div class="section-3-div-2-div">
-              <div class="section-3-div-2">
+              <div>
                 <img src="asset/icon-minus.svg" alt="icon-minus">
-                <p>0</p>
+                <h4>0</h4>
                 <img src="asset/icon-plus.svg" alt="icon-plus">
+              </div>
+              <div>
+                <button><img src="asset/icon-cart.svg" alt="">Add to cart</button>
+              </div>
             </div>
-            <div class="section-3-div-3">
-                <img src="asset/icon-cart.svg" alt="">
-                <h2>Add to cart</h2>
-            </div>
-            </div>
-        
-          </section>
-         </section>
-    
-    </main>
+          </div>
+        </section>
+     </main>
   </body>
 </html>
