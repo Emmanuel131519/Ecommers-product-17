@@ -77,7 +77,7 @@ max-width: 20%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    bottom: 60%;
+    bottom: 180px;
     left: 0;
     right: 0;
 }
@@ -91,4 +91,43 @@ max-width: 20%;
     justify-content: center;
     align-items: center;
 padding: 19px;
+}
+
+.thumbnail-wrapper{
+    display: none;
+}
+
+.section-2-div-1 h4{
+    color: var(--Grayish-blue);
+    font-weight: 700;
+    font-size: 19px;
+    padding-bottom: 10px;
+}
+
+.section-2-div-1 h1{
+    font-size: 2rem;
+    padding: 10px 0;
+}
+
+.section-2-div-2 > p{
+    color: var(--Grayish-blue);
+    line-height: 1.9;
+    font-size: 16px
+}
+
+.section-2-div-2-a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.section-2-div-2-a-inner{
+display: flex ;
+gap: 15px;
+align-items: center;
+}
+
+.section-2-div-2-a-inner h1{
+    font-size: 2rem;
 }
